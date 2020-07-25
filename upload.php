@@ -8,15 +8,27 @@
 		font-size: 20px;
 	}
 	body{
-		background-image:url(https://j.top4top.io/p_16654ocjt1.jpg);
+		background-color:black; 
+	}
+	img{
+		width: 200px;
+		height: 200px;
 	}
 </style>
 </head>
 <body>
+<center>
+<img src="http://www12.0zz0.com/2014/12/28/03/895190770.jpg"/>
+</center>
+<br/>
+<br/>
+<br/>
+<center>
 	<form action="<?php echo $_SERVER['PHP_SELF'] ;?>" method="post"  enctype="multipart/form-data">
 		<input type="file" name="word">
 		<input type="submit" name="loading">
 	</form>
+</center>
 </body>
 </html>
 <?php
