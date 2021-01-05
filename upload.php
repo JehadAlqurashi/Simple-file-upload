@@ -26,7 +26,7 @@
 <center>
 	<form action="<?php echo $_SERVER['PHP_SELF'] ;?>" method="post"  enctype="multipart/form-data">
 		<input type="file" name="word">
-		<input type="submit" name="loading">
+		<input type="submit" name="loading" value="Upload">
 	</form>
 </center>
 </body>
